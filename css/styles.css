@@ -8,7 +8,6 @@
  *
 */
 
-
 /* ---- Base Rules ---- */
 body {
     background: rgb(136,203,171);
@@ -19,7 +18,7 @@ body {
 }
 
 
-/* Typeography General*/
+/* Typography General*/
 h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 3em;
@@ -130,8 +129,8 @@ section:nth-of-type(even) .landing__container {
 }
 
 /* Background Circles */
-/* Note that background circles are created with psuedo elements before and after */
-/* Circles appear to be random do to use of :nth-of-type psuedo class */
+/* Note that background circles are created with Psuedo elements before and after */
+/* Circles appear to be random do to use of :nth-of-type Psuedo class */
 section:nth-of-type(odd) .landing__container::before {
     content: '';
     background: rgba(255, 255, 255, 0.187);
